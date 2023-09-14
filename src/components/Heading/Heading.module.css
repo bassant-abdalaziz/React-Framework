@@ -1,0 +1,16 @@
+.line{
+    width: 80px;
+    height: 4px;
+}
+
+.header{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@media (max-width:767px) {
+  .header{
+   font-size: 25px;
+}
+}

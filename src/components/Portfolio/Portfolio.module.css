@@ -1,0 +1,53 @@
+.portfolio{
+    margin-top: var(--mTop);
+    padding: 60px 0;
+}
+
+.rowImgs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.portfolioImg{
+    width: 30%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.layout{
+    background-color: #1abc9c61;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.layout img{
+    width: 600px;
+}
+
+@media (max-width:992px) {
+    .portfolioImg{
+        width: 45%;
+    }
+    }
+
+@media (max-width:767px) {
+.rowImgs{
+    flex-direction: column;
+}
+.portfolioImg{
+    width: 95%;
+}
+}

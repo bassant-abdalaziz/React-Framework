@@ -1,0 +1,32 @@
+.home{
+    background-color: var(--primary-light-color);
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: var(--mTop)
+}
+
+.home img{
+    width: 250px;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+
+
+.home p{
+    color: var(--light-color);
+}
+
+@media (max-width:767px) {
+.home img{
+    width: 200px
+}
+
+
+.home p{
+    font-size: 14px;
+}
+
+}

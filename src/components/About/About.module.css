@@ -1,0 +1,9 @@
+.about{
+    background-color: var(--primary-light-color);
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: var(--mTop)
+}
+

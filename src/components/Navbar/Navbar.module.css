@@ -1,0 +1,13 @@
+nav{
+    background-color: var(--primary-dark-color)
+}
+
+.link {
+    text-transform: uppercase;
+    color: var(--light-color) !important;
+    font-weight: bold !important;
+    width: fit-content;
+    padding: 10px !important;
+}
+
+

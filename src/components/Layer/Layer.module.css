@@ -1,0 +1,9 @@
+.layer{
+    background-color: #1abc9ce6;
+    transition: all 0.3s;
+}
+
+.plus{
+    font-size: 70px;
+}
+
