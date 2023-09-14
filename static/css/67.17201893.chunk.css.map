@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/67.17201893.chunk.css","mappings":"AAAA,qBACI,WACJ,CAEA,yBACI,qBACI,WACJ,CACJ","sources":["components/NotFound/NotFound.module.css"],"sourcesContent":[".img{\r\n    width: 550px;\r\n}\r\n\r\n@media (max-width: 768px) {\r\n    .img{\r\n        width: 250px;\r\n    }\r\n}"],"names":[],"sourceRoot":""}
